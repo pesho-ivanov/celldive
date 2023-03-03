@@ -9,7 +9,7 @@
 
 CellDive has been applied ([example/](example/)) to a dozen of human cutaneous lymphoma samples. The clonality rules were used to partition each sample into a malignant clone (`main-clone`) and healthy cells (`bystanders`). Differential expression analyses was applied to the two clusters (no batch effect).
 
-## Workflow:
+## Workflow
 
 ![License: MPL 2.0](imgs/flow.svg)
 
