@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CellDive
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - family-names: Ivanov
+    given-names: Petar
+    orcid: 'https://orcid.org/0000-0002-8119-3849'
+    email: ivanov@pesho.info
+  - family-names: Vechev
+    given-names: Martin
+    orcid: 'https://orcid.org/0000-0002-0054-9568'
+url: 'https://github.com/pesho-ivanov/celldive'
+abstract: >-
+  CellDive: Gene-level analysis of lymphocyte single-cell
+  RNA data based on a clonality specification language
+keywords:
+  - single cell
+  - RNA sequencing
+  - TCR
+  - BCR
+  - clonality
+  - differential expression
+  - alpha and beta chains
+license: MPL-2.0
+version: 1.0.0
+date-released: '2023-03-03'
+
