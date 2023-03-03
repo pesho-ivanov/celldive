@@ -1,0 +1,109 @@
+#!/usr/bin/env python3
+
+from imports import *
+
+WaG = ['01_BE', '01_BL', '01_BLN', '01_SE', '01_SL']
+FrK = ['02_BE', '02_BL', '02_SE', '02_SL']
+SchH = ['03_BE', '03_BL', '03_SE', '03_SL']
+batch5 = [ '04_S', '05_S', '06_S', '07_S', '08_S', '09_S', '10_S', '11_S', '12_S', '13_S', '14_S' ]
+
+all_samples = WaG + FrK + SchH + batch5
+with_clonal_and_nonclonal = [ '01_BL', '01_SE', '02_BL', '02_SE', '02_SL', '03_SE', '03_SL', '06_S', '10_S', '11_S' ]
+with_clonal = [ '01_BL', '01_SE', '01_SL', '02_BE', '02_BL', '02_SE', '02_SL', '03_BL', '03_SE', '03_SL', '04_S', '06_S', '07_S', '08_S', '09_S', '10_S', '11_S', '13_S', '14_S' ]
+with_nonclonal = [ '01_BE', '01_BL', '01_BLN', '01_SE', '02_BL', '02_SE', '02_SL', '03_BE', '03_SE', '03_SL', '06_S', '10_S' ]
+
+clonal_progression_batches = [ '01_SE', '01_SL', '02_BE', '02_BL', '02_SE', '02_SL', '03_SE', '03_SL' ]
+clonal_progression_combinations = [
+	('progression_clonal_01_skin', ('01_SE', 'clonal'), ('01_SL', 'clonal')),
+	('progression_clonal_02_blood', ('02_BE', 'clonal'), ('02_BL', 'clonal')),
+	('progression_clonal_02_skin', ('02_SE', 'clonal'), ('02_SL', 'clonal')),
+	('progression_clonal_03_skin', ('03_SE', 'clonal'), ('03_SL', 'clonal')),
+]
+
+single_progression_batches = [ '01_BE', '01_BLN', '02_SE', '02_SL', '03_SE', '03_SL', ]
+single_progression_combinations = [
+	('progression_single_01_blood', ('01_BE', 'single'), ('01_BLN', 'single')),
+	('progression_single_02_skin', ('02_SE', 'single'), ('02_SL', 'single')),
+	('progression_single_03_skin', ('03_SE', 'single'), ('03_SL', 'single')),
+]
+
+to_merge = [
+	('progression_all_02_skin', ('progression_clonal_02_skin', 'all'), ('progression_single_02_skin', 'all')),
+	('progression_all_03_skin', ('progression_clonal_03_skin', 'all'), ('progression_single_03_skin', 'all')),
+]
+
+
+if __name__ == '__main__':
+    
+    samples_description_tsv = sys.argv[1]
+    GENE_LIST_FILE = '/home/pesho/work/celldive/in/usz/preknown_genes_CHOI_DA_SILVA_WANT_PARK.csv'
+
+    run.init(
+        conf = {
+                'samples_description_tsv': samples_description_tsv,
+                'kallisto_dir_tmpl': '/home/pesho/work/celldive/in/usz/kallisto/{}/kallisto/',
+
+                'samples': sorted(list(set(clonal_progression_batches) | set(single_progression_batches))), 
+		#'samples': all_samples,
+                'combine_batches': clonal_progression_combinations + single_progression_combinations + to_merge,
+
+                #'samples': all_samples,
+                #'samples': with_clonal_and_nonclonal,
+                #'stats': True, #{ 'samples': False, 'tcrs': True, },
+
+                #'combine_batches': ['patient'], # , 'all'
+
+                'filt_cells': {
+                  #  'min_cells_in_well': 1,
+                  #  'max_cells_in_well': 1,
+    #               'expressed_genes': 2000,
+                    'max_spikein_perc': 0.9,
+                },
+                'filt_tcr_chains': {
+                    'nonproductive': True,
+                },
+
+                'clonality': {
+                    'rule': 'alpha or beta',    # 'alpha', 'beta', 'alpha and beta'
+                    'bystander_clone_threshold_percent': 10,
+                    #'dump_expression_tables': True,
+                },
+                'vb_kit_distr': True,
+
+                #'vj_heatmap': True,
+                #'bipartite': [ 'clonal', ], # 'rainbow' ], #'bipartite': [ 'rainbow', 'clonal' ],
+
+                #'filt_genes': {
+                #    'expression_threshold': 2.5,
+                #    'min_cells_expressing_gene': 15,
+                #},
+
+                'compare_gene_list': GENE_LIST_FILE,  # 'no'
+                'de': {
+                    'methods': [ 'edgeR', ], #'ROTS' ], #, 'ROTS' ]
+                    'clear_groups': [ True ], # False ],
+                    'min_group_size': 5,
+                    #'gene_table_intersect': '/home/pesho/work/celldive/out/20180619_17h20m21s/DE_genes/',
+                    'gene_lists': [ GENE_LIST_FILE, 'all' ],
+                    #'gene_lists': [ GENE_LIST_FILE ],
+                    #'gene_lists': [ 'all' ],
+                    #'gene_list': 'no',
+                },
+
+                #'mutations': {
+                #    'cnv': True,
+                #}
+                #'processes': 1,
+
+                #'gsea': {
+                #    'geneset': 'c1.all.v6.0.symbols.gmt',
+                #}
+                #'geneintersect': "/home/pesho/work/celldive/out/20180501_05h02m09s_batches.01+01+02+02+02+03+03+06+08+10+11_DE.wilcox_limit_genes.10_experiment.bipartite/DE/",
+                #'/home/pesho/work/celldive/out/20180501_05h02m09s_batches.01+01+02+02+02+03+03+06+08+10+11_DE.wilcox_limit_genes.10_experiment.bipartite/DE/',
+            
+                #'experiment': 'bipartite',
+                #'input_files': { 'expression_matrix': 'kallisto_counts.tsv' },
+                #'features': [ 'all' ], #features = [10, 'important', 'all'],
+                #'clonality_stats': False,
+        },
+    )

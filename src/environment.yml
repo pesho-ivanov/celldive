@@ -1,0 +1,58 @@
+name: celldive
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - edurand  # for annotables
+  - mvdbeek  # for multiprocessing-logging which is buggy in the standard multiprocessing lib
+    #- r
+prefix: /home/pesho/miniconda3/envs/celldive
+dependencies:
+  - python>=3.6
+  - r=3.5
+    #- ipython
+  - pandas  # including numpy, dateutil, pytz, mkl
+  - scipy
+    #- rpy2
+  - matplotlib  # including qt
+    #- seaborn
+  - ipykernel # for ipywidgets; including zeromq
+    #- scikit-learn  # sklearn
+    #- networkx
+    #- nbconvert  # incl. gmp, pandoc
+    #- libiconv  # needef for nbconvert
+    #  - r
+    # - libxml2  # for Seurat???
+    #- r-essentials
+    #- cutadapt=1.5  # the newer 1.6 is buggy; needed for trim_galore
+  - r-readr
+  - r-logging
+  - trim-galore
+  - kallisto
+  - bioconductor-singlecellexperiment
+  - bioconductor-scater
+  - bioconductor-scde
+  - bioconductor-rots
+  - bioconductor-edger
+  - bioconductor-mast
+  - multiprocessing-logging
+  - r-upsetr   # Venn diagram alternative
+  - imagemagick
+  - r-gmd   # needed for inferCNV
+
+   #- r-gplots  # for heatmaps; includes r and many other R packages -- consider installing r or r-essentials instead
+  #- r-seurat # doesn't work on r3.5
+  - r-dplyr
+  - seaborn  # for xkcd colors
+  - scikit-learn  # PCA in ge_scatter_tcr_graph
+  - networkx  # PCA in ge_scatter_tcr_graph
+   #- r-cowplot
+   #- rpy2
+  - r-annotables  # for Ubuntu: R> options(unzip = "internal")   is needed in R before installing as there isn't a gzip installed (needed for gtar)
+#  - r-rsvg
+  - openpyxl # for writing excel from python
+  - jinja2  # for styles (e.g. colors) in pandas dataframes to be printed as xls
+# No conda package for vidger yet. Install manually:
+#   R
+#   source("https://bioconductor.org/biocLite.R")
+#   biocLite("vidger")

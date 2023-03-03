@@ -1,0 +1,1244 @@
+{
+    "cell_partition": {
+        "clonotype": {
+            "alpha": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+            "beta": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+            "rule": "alpha or beta",
+            "facs": "exp. 50% clonal (Vb 22, TRBV2)"
+        },
+        "filtered": {},
+        "clonal": {
+            "06_S_N706_S521": {
+                "cell_id": "06_S_N706_S521",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV8-1_GTGAACTCTG_TRAJ37",
+                        "v": "TRAV8-1",
+                        "specifier": "GTGAACTCTG",
+                        "j": "TRAJ37",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 433.47,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.2799999999999995e-125,
+                        "V_bitscore": 439.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 8.66e-30,
+                        "J_bitscore": 117.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 2.33042,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.739999999999999e-127,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.31e-21,
+                        "J_bitscore": 87.7
+                    },
+                    {
+                        "recombinant_id": "TRBV5-1_GCAGCCCCGGCTGGCCCCCGGACTCCT_TRBJ1-6",
+                        "v": "TRBV5-1",
+                        "specifier": "GCAGCCCCGGCTGGCCCCCGGACTCCT",
+                        "d": "GCAGCCCCGGCTGGCCCCCGGACTCCT",
+                        "j": "TRBJ1-6",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 1254.57,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.279999999999999e-126,
+                        "V_bitscore": 441.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.79e-15,
+                        "J_bitscore": 69.9
+                    }
+                ]
+            },
+            "06_S_N703_S520": {
+                "cell_id": "06_S_N703_S520",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 278,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.029999999999999e-98,
+                        "V_bitscore": 347.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 8.96e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N706_S518": {
+                "cell_id": "06_S_N706_S518",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 333,
+                        "TPM": 1147.98,
+                        "V_percentident": 99.639,
+                        "V_evalue": 8.349999999999997e-123,
+                        "V_bitscore": 430.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.330000000000001e-28,
+                        "J_bitscore": 111.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 375.76599999999996,
+                        "V_percentident": 100.0,
+                        "V_evalue": 6.149999999999998e-127,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.399999999999999e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N706_S513": {
+                "cell_id": "06_S_N706_S513",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 312,
+                        "TPM": 5.732480000000001,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.979999999999999e-127,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 0.000317,
+                        "J_bitscore": 32.2
+                    }
+                ]
+            },
+            "06_S_N703_S522": {
+                "cell_id": "06_S_N703_S522",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 286,
+                        "TPM": 223.69099999999997,
+                        "V_percentident": 99.552,
+                        "V_evalue": 3.2299999999999984e-97,
+                        "V_bitscore": 346.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.23e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 336.49199999999996,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.0199999999999997e-126,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.5100000000000002e-20,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N703_S521": {
+                "cell_id": "06_S_N703_S521",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 13.5168,
+                        "V_percentident": 99.639,
+                        "V_evalue": 1.6399999999999995e-122,
+                        "V_bitscore": 430.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.72e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 309,
+                        "TPM": 15.5162,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.9799999999999993e-112,
+                        "V_bitscore": 396.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 8.759999999999999e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N702_S518": {
+                "cell_id": "06_S_N702_S518",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 278,
+                        "TPM": 169.49200000000002,
+                        "V_percentident": 99.111,
+                        "V_evalue": 1.08e-97,
+                        "V_bitscore": 346.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.0400000000000003e-26,
+                        "J_bitscore": 105.0
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N703_S513": {
+                "cell_id": "06_S_N703_S513",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 672.7810000000001,
+                        "V_percentident": 99.639,
+                        "V_evalue": 1.8499999999999996e-122,
+                        "V_bitscore": 430.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.55e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 232,
+                        "TPM": 482.014,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.3599999999999998e-76,
+                        "V_bitscore": 276.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.71e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N714_S518": {
+                "cell_id": "06_S_N714_S518",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 248,
+                        "TPM": 8.35732,
+                        "V_percentident": 99.476,
+                        "V_evalue": 1.1599999999999998e-82,
+                        "V_bitscore": 296.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 8.729999999999999e-29,
+                        "J_bitscore": 113.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 264,
+                        "TPM": 10.0235,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.08e-91,
+                        "V_bitscore": 325.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.240000000000001e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N714_S513": {
+                "cell_id": "06_S_N714_S513",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 263,
+                        "TPM": 7.106339999999999,
+                        "V_percentident": 99.07799999999999,
+                        "V_evalue": 5.739999999999999e-94,
+                        "V_bitscore": 333.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.19e-15,
+                        "J_bitscore": 67.9
+                    },
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRBV2_TCGAGCAGTA_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "TCGAGCAGTA",
+                        "d": "TCGAGCAGTA",
+                        "j": "TRBJ2-7",
+                        "productive": false,
+                        "reconstructed_length": 169,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 5.88e-56,
+                        "V_bitscore": 207.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.8899999999999996e-19,
+                        "J_bitscore": 81.8
+                    }
+                ]
+            },
+            "06_S_N705_S520": {
+                "cell_id": "06_S_N705_S520",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 187,
+                        "TPM": 106.829,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.4899999999999998e-55,
+                        "V_bitscore": 205.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.09e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N711_S522": {
+                "cell_id": "06_S_N711_S522",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 264,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.8199999999999997e-91,
+                        "V_bitscore": 325.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.39e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N714_S521": {
+                "cell_id": "06_S_N714_S521",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 655.294,
+                        "V_percentident": 99.639,
+                        "V_evalue": 1.6699999999999994e-122,
+                        "V_bitscore": 430.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.82e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 293.651,
+                        "V_percentident": 100.0,
+                        "V_evalue": 6.2499999999999984e-127,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.559999999999999e-21,
+                        "J_bitscore": 87.7
+                    },
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRBV2_TCGAGCAGTA_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "TCGAGCAGTA",
+                        "d": "TCGAGCAGTA",
+                        "j": "TRBJ2-7",
+                        "productive": false,
+                        "reconstructed_length": 169,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 8.51e-56,
+                        "V_bitscore": 207.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.1399999999999997e-19,
+                        "J_bitscore": 81.8
+                    }
+                ]
+            },
+            "06_S_N703_S518": {
+                "cell_id": "06_S_N703_S518",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 4.93237,
+                        "V_percentident": 99.639,
+                        "V_evalue": 1.3999999999999997e-122,
+                        "V_bitscore": 430.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.769999999999999e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 295,
+                        "TPM": 6.26379,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.439999999999997e-106,
+                        "V_bitscore": 374.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 8.92e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N701_S513": {
+                "cell_id": "06_S_N701_S513",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 289,
+                        "TPM": 415.168,
+                        "V_percentident": 100.0,
+                        "V_evalue": 6.069999999999999e-103,
+                        "V_bitscore": 364.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.09e-20,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N710_S521": {
+                "cell_id": "06_S_N710_S521",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 269,
+                        "TPM": 0.0,
+                        "V_percentident": 99.531,
+                        "V_evalue": 7.529999999999999e-93,
+                        "V_bitscore": 330.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.7299999999999994e-21,
+                        "J_bitscore": 87.7
+                    },
+                    {
+                        "recombinant_id": "TRBV5-1_GCAGCCCCGGCTGGCCCCCGGACTCCT_TRBJ1-6",
+                        "v": "TRBV5-1",
+                        "specifier": "GCAGCCCCGGCTGGCCCCCGGACTCCT",
+                        "d": "GCAGCCCCGGCTGGCCCCCGGACTCCT",
+                        "j": "TRBJ1-6",
+                        "productive": true,
+                        "reconstructed_length": 211,
+                        "TPM": 13.7991,
+                        "V_percentident": 99.291,
+                        "V_evalue": 3.7600000000000004e-59,
+                        "V_bitscore": 218.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.42e-26,
+                        "J_bitscore": 105.0
+                    }
+                ]
+            },
+            "06_S_N714_S517": {
+                "cell_id": "06_S_N714_S517",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 113,
+                        "TPM": 516.753,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.0299999999999997e-17,
+                        "V_bitscore": 79.7,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.8699999999999997e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 110,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.6899999999999997e-19,
+                        "V_bitscore": 86.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.5299999999999994e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N701_S516": {
+                "cell_id": "06_S_N701_S516",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 85,
+                        "TPM": 7.25357,
+                        "V_percentident": 100.0,
+                        "V_evalue": 0.000183,
+                        "V_bitscore": 36.1,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.7399999999999998e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N701_S520": {
+                "cell_id": "06_S_N701_S520",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 246.149,
+                        "V_percentident": 100.0,
+                        "V_evalue": 6.999999999999998e-127,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.0500000000000001e-20,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N715_S521": {
+                "cell_id": "06_S_N715_S521",
+                "tracer_clonal_group": 0,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 162,
+                        "TPM": 109.542,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7e-44,
+                        "V_bitscore": 166.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.6e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N714_S520": {
+                "cell_id": "06_S_N714_S520",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 284.242,
+                        "V_percentident": 99.639,
+                        "V_evalue": 1.8399999999999996e-122,
+                        "V_bitscore": 430.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.54e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "d": "CCAGC(AG)CGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 301.546,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.0199999999999997e-126,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.5200000000000002e-20,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N705_S521": {
+                "cell_id": "06_S_N705_S521",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV29_DV5_AGCAAATTCA_TRAJ45",
+                        "v": "TRAV29DV5",
+                        "specifier": "AGCAAATTCA",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 121,
+                        "TPM": 9.54304,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.7600000000000005e-21,
+                        "V_bitscore": 92.2,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.99e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": []
+            }
+        },
+        "related": {},
+        "nonclonal": {
+            "06_S_N703_S516": {
+                "cell_id": "06_S_N703_S516",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV38-1_GAAGCCGAACA_TRAJ49",
+                        "v": "TRAV38-1",
+                        "specifier": "GAAGCCGAACA",
+                        "j": "TRAJ49",
+                        "productive": true,
+                        "reconstructed_length": 346,
+                        "TPM": 837.7689999999999,
+                        "V_percentident": 100.0,
+                        "V_evalue": 5.0099999999999984e-129,
+                        "V_bitscore": 452.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.1399999999999999e-27,
+                        "J_bitscore": 111.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV3-1_AGCCAGCATCAGGGAAAAGAG_TRBJ2-5",
+                        "v": "TRBV3-1",
+                        "specifier": "AGCCAGCATCAGGGAAAAGAG",
+                        "d": "AGCCAGCATCAGGGAAAAGAG",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 86.9571,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.0299999999999997e-126,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.8600000000000005e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "06_S_N711_S521": {
+                "cell_id": "06_S_N711_S521",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV6-6_GCAGCGGGGACAGACTCTACG_TRBJ2-7",
+                        "v": "TRBV6-6",
+                        "specifier": "GCAGCGGGGACAGACTCTACG",
+                        "d": "GCAGCGGGGACAGACTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 75,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 0.003,
+                        "V_bitscore": 33.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.6e-21,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "06_S_N707_S520": {
+                "cell_id": "06_S_N707_S520",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV30_AGTGTTGGCCTCTCCCAAG_TRBJ2-5",
+                        "v": "TRBV30",
+                        "specifier": "AGTGTTGGCCTCTCCCAAG",
+                        "d": "AGTGTTGGCCTCTCCCAAG",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 202,
+                        "TPM": 72.4275,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.98e-62,
+                        "V_bitscore": 229.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.309999999999999e-23,
+                        "J_bitscore": 93.7
+                    }
+                ]
+            },
+            "06_S_N711_S520": {
+                "cell_id": "06_S_N711_S520",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GCTAGCGCAGTGGGGCTTTGGGACACT_TRBJ1-1",
+                        "v": "TRBV20-1",
+                        "specifier": "GCTAGCGCAGTGGGGCTTTGGGACACT",
+                        "d": "GCTAGCGCAGTGGGGCTTTGGGACACT",
+                        "j": "TRBJ1-1",
+                        "productive": true,
+                        "reconstructed_length": 161,
+                        "TPM": 960.1419999999999,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.039999999999999e-40,
+                        "V_bitscore": 156.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.59e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "06_S_N705_S513": {
+                "cell_id": "06_S_N705_S513",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV2_CCAGC(AG)CGGGGGCAGCCTCTACG_TRBJ2-7",
+                        "v": "TRBV2",
+                        "specifier": "CCAGC(AG)CGGGGGCAGCCTCTACG",
+                        "d": "CCAGC(AG)CGGGGGCAGCCTCTACG",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 307,
+                        "TPM": 0.0,
+                        "V_percentident": 98.81,
+                        "V_evalue": 3.689999999999999e-107,
+                        "V_bitscore": 378.0,
+                        "J_percentident": 97.727,
+                        "J_evalue": 2.69e-18,
+                        "J_bitscore": 79.8
+                    }
+                ]
+            },
+            "06_S_N715_S516": {
+                "cell_id": "06_S_N715_S516",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV12-1_TGTGGCCTCCCGCGGTGG_TRAJ4",
+                        "v": "TRAV12-1",
+                        "specifier": "TGTGGCCTCCCGCGGTGG",
+                        "j": "TRAJ4",
+                        "productive": true,
+                        "reconstructed_length": 153,
+                        "TPM": 30.947,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.75e-36,
+                        "V_bitscore": 142.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.1999999999999998e-27,
+                        "J_bitscore": 109.0
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N712_S517": {
+                "cell_id": "06_S_N712_S517",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV9-2_TGTGCGGGCCGATCCGCCCA_TRAJ54",
+                        "v": "TRAV9-2",
+                        "specifier": "TGTGCGGGCCGATCCGCCCA",
+                        "j": "TRAJ54",
+                        "productive": true,
+                        "reconstructed_length": 175,
+                        "TPM": 114.777,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.0699999999999997e-48,
+                        "V_bitscore": 182.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.33e-24,
+                        "J_bitscore": 97.6
+                    }
+                ],
+                "betas": []
+            }
+        },
+        "bystanders": {
+            "06_S_N714_S515": {
+                "cell_id": "06_S_N714_S515",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV5_GCAGACCAGAGGCCCAATTC_TRAJ41",
+                        "v": "TRAV5",
+                        "specifier": "GCAGACCAGAGGCCCAATTC",
+                        "j": "TRAJ41",
+                        "productive": true,
+                        "reconstructed_length": 211,
+                        "TPM": 348.94199999999995,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.63e-77,
+                        "V_bitscore": 277.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.24e-09,
+                        "J_bitscore": 48.1
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N701_S515": {
+                "cell_id": "06_S_N701_S515",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV5_GCAGACCAGAGGCCCAATTC_TRAJ41",
+                        "v": "TRAV5",
+                        "specifier": "GCAGACCAGAGGCCCAATTC",
+                        "j": "TRAJ41",
+                        "productive": true,
+                        "reconstructed_length": 120,
+                        "TPM": 11.6772,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.89e-20,
+                        "V_bitscore": 87.5,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.31e-27,
+                        "J_bitscore": 109.0
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N706_S515": {
+                "cell_id": "06_S_N706_S515",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV5_GCAGACCAGAGGCCCAATTC_TRAJ41",
+                        "v": "TRAV5",
+                        "specifier": "GCAGACCAGAGGCCCAATTC",
+                        "j": "TRAJ41",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 2187.2,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.7099999999999995e-121,
+                        "V_bitscore": 425.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.48e-27,
+                        "J_bitscore": 109.0
+                    },
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV8-4_ACTTCCCCCCCACAAC_TRAJ21",
+                        "v": "TRAV8-4",
+                        "specifier": "ACTTCCCCCCCACAAC",
+                        "j": "TRAJ21",
+                        "productive": false,
+                        "reconstructed_length": 330,
+                        "TPM": 847.143,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.049999999999999e-120,
+                        "V_bitscore": 422.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.7600000000000002e-26,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV25-1_AGCAGCAGGGGGCAGGACACT_TRBJ1-1",
+                        "v": "TRBV25-1",
+                        "specifier": "AGCAGCAGGGGGCAGGACACT",
+                        "d": "AGCAGCAGGGGGCAGGACACT",
+                        "j": "TRBJ1-1",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 639.5419999999999,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.6099999999999998e-125,
+                        "V_bitscore": 439.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.43e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "06_S_N703_S515": {
+                "cell_id": "06_S_N703_S515",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV8-2_ACTTCCCCCCCACAAC_TRAJ21",
+                        "v": "TRAV8-2",
+                        "specifier": "ACTTCCCCCCCACAAC",
+                        "j": "TRAJ21",
+                        "productive": false,
+                        "reconstructed_length": 159,
+                        "TPM": 91.6533,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.4199999999999998e-40,
+                        "V_bitscore": 156.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.13e-27,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N706_S516": {
+                "cell_id": "06_S_N706_S516",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV5_GCAGACCAGAGGCCCAATTC_TRAJ41",
+                        "v": "TRAV5",
+                        "specifier": "GCAGACCAGAGGCCCAATTC",
+                        "j": "TRAJ41",
+                        "productive": true,
+                        "reconstructed_length": 241,
+                        "TPM": 5.5118,
+                        "V_percentident": 100.0,
+                        "V_evalue": 5.3199999999999997e-79,
+                        "V_bitscore": 283.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.08e-24,
+                        "J_bitscore": 99.6
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N706_S520": {
+                "cell_id": "06_S_N706_S520",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV8-4_ACTTCCCCCCCACAAC_TRAJ21",
+                        "v": "TRAV8-4",
+                        "specifier": "ACTTCCCCCCCACAAC",
+                        "j": "TRAJ21",
+                        "productive": false,
+                        "reconstructed_length": 265,
+                        "TPM": 11.9973,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.949999999999999e-90,
+                        "V_bitscore": 321.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.84e-27,
+                        "J_bitscore": 107.0
+                    },
+                    {
+                        "recombinant_id": "TRAV5_GCAGACCAGAGGCCCAATTC_TRAJ41",
+                        "v": "TRAV5",
+                        "specifier": "GCAGACCAGAGGCCCAATTC",
+                        "j": "TRAJ41",
+                        "productive": true,
+                        "reconstructed_length": 247,
+                        "TPM": 17.7632,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.209999999999999e-79,
+                        "V_bitscore": 285.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.53e-27,
+                        "J_bitscore": 109.0
+                    }
+                ],
+                "betas": []
+            },
+            "06_S_N712_S522": {
+                "cell_id": "06_S_N712_S522",
+                "tracer_clonal_group": 1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV7-8_AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC_TRBJ2-7",
+                        "v": "TRBV7-8",
+                        "specifier": "AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC",
+                        "d": "AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 104,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 5.3e-11,
+                        "V_bitscore": 57.9,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.0199999999999999e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "06_S_N704_S518": {
+                "cell_id": "06_S_N704_S518",
+                "tracer_clonal_group": 1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV7-8_AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC_TRBJ2-7",
+                        "v": "TRBV7-8",
+                        "specifier": "AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC",
+                        "d": "AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 355,
+                        "TPM": 799.002,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.729999999999999e-128,
+                        "V_bitscore": 449.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.59e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "06_S_N706_S522": {
+                "cell_id": "06_S_N706_S522",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV5_GCAGACCAGAGGCCCAATTC_TRAJ41",
+                        "v": "TRAV5",
+                        "specifier": "GCAGACCAGAGGCCCAATTC",
+                        "j": "TRAJ41",
+                        "productive": true,
+                        "reconstructed_length": 336,
+                        "TPM": 7.29391,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1399999999999997e-120,
+                        "V_bitscore": 424.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.71e-27,
+                        "J_bitscore": 109.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV7-8_AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC_TRBJ2-7",
+                        "v": "TRBV7-8",
+                        "specifier": "AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC",
+                        "d": "AGCTTGTTCGGATCGGGTGTAGGTCGCGCCTAC",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 352,
+                        "TPM": 128.235,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.9999999999999993e-128,
+                        "V_bitscore": 449.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.23e-19,
+                        "J_bitscore": 83.8
+                    }
+                ]
+            }
+        },
+        "nonreconstructed": {
+            "06_S_N711_S513": [],
+            "06_S_N710_S515": [],
+            "06_S_N702_S515": [],
+            "06_S_N702_S517": [],
+            "06_S_N710_S513": [],
+            "06_S_N712_S516": [],
+            "06_S_N701_S518": [],
+            "06_S_N704_S522": [],
+            "06_S_N701_S517": [],
+            "06_S_N715_S515": [],
+            "06_S_N701_S521": [],
+            "06_S_N711_S518": [],
+            "06_S_N704_S516": [],
+            "06_S_N710_S517": [],
+            "06_S_N714_S522": [],
+            "06_S_N707_S513": [],
+            "06_S_N710_S518": [],
+            "06_S_N710_S522": [],
+            "06_S_N712_S521": [],
+            "06_S_N702_S516": [],
+            "06_S_N705_S522": [],
+            "06_S_N711_S515": [],
+            "06_S_N712_S518": [],
+            "06_S_N711_S516": [],
+            "06_S_N705_S517": [],
+            "06_S_N715_S520": [],
+            "06_S_N707_S515": [],
+            "06_S_N706_S517": [],
+            "06_S_N702_S521": [],
+            "06_S_N711_S517": [],
+            "06_S_N715_S522": [],
+            "06_S_N707_S516": [],
+            "06_S_N705_S518": [],
+            "06_S_N704_S517": [],
+            "06_S_N705_S516": [],
+            "06_S_N712_S513": [],
+            "06_S_N707_S518": [],
+            "06_S_N702_S513": [],
+            "06_S_N714_S516": [],
+            "06_S_N715_S517": [],
+            "06_S_N703_S517": [],
+            "06_S_N715_S518": [],
+            "06_S_N712_S520": [],
+            "06_S_N707_S521": [],
+            "06_S_N704_S515": [],
+            "06_S_N710_S516": [],
+            "06_S_N707_S517": [],
+            "06_S_N712_S515": [],
+            "06_S_N702_S522": [],
+            "06_S_N702_S520": [],
+            "06_S_N710_S520": [],
+            "06_S_N704_S513": [],
+            "06_S_N704_S520": [],
+            "06_S_N704_S521": [],
+            "06_S_N701_S522": [],
+            "06_S_N707_S522": [],
+            "06_S_N715_S513": [],
+            "06_S_N705_S515": []
+        }
+    }
+}

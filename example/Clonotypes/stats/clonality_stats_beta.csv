@@ -1,0 +1,11 @@
+,all,clonal,nonclonal,clonal_cells_with_beta|alpha,clonal_cells_without_beta|alpha,nonclonal_cells_with_beta|alpha,nonclonal_cells_without_beta|alpha,fisher_pvalue_equal
+WaG_SE_nonclonal,84,23,22,2,0,7,8,0.47058823529411714
+WaG_BLC_nonclonal,74,16,17,5,0,8,1,1.0
+SchH_SE_nonclonal,58,20,20,7,0,6,2,0.4666666666666668
+SchH_SL_nonclonal,53,10,7,4,0,3,1,1.0
+FrK_SE_nonclonal,74,43,12,12,0,5,1,0.3333333333333331
+FrK_SL_nonclonal,76,29,25,16,0,15,1,1.0
+FrK_BL_nonclonal,73,21,19,9,0,9,2,0.4789473684210518
+SchH_nonclonal,111,30,27,11,0,9,3,0.21739130434782575
+WaG_nonclonal,158,39,39,7,0,15,9,0.07664128233649914
+FrK_nonclonal,223,93,56,37,0,29,4,0.04462888335087434

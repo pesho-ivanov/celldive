@@ -1,0 +1,11 @@
+#example only
+
+quantify:
+	#bpipe run pipeline.groovy
+	bpipe run --dir out/ ~/repos/bioviz/src/scripts/quantify-pipeline.groovy in2/* 
+
+tracer:
+	bpipe run --dir out/ ~/repos/bioviz/src/scripts/tracer-pipeline.groovy in2/* 
+	 
+clean:
+	rm -rf kallisto/ /commandlog.txt .bpipe *.fq *.fa* *.sai *.bam

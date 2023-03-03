@@ -1,0 +1,1686 @@
+{
+    "cell_partition": {
+        "clonotype": {
+            "alpha": "TRAV12-2_TGAACTGGGATA_TRAJ33",
+            "beta": "TRBV20-1_AGAGATTTAACTAGCGGGAGCTTCCCCTAC_TRBJ2-7",
+            "rule": "alpha or beta",
+            "facs": "exp. 50% clonal (Vb 2, TRBV20-1)"
+        },
+        "filtered": {},
+        "clonal": {
+            "03_BE_124": {
+                "cell_id": "03_BE_124",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV2_GCTGTTCTATAA_TRAJ23",
+                        "v": "TRAV2",
+                        "specifier": "GCTGTTCTATAA",
+                        "j": "TRAJ23",
+                        "productive": false,
+                        "reconstructed_length": 317,
+                        "TPM": 586.6,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.9799999999999986e-114,
+                        "V_bitscore": 402.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.070000000000001e-29,
+                        "J_bitscore": 115.0
+                    },
+                    {
+                        "recombinant_id": "TRAV12-2_TGAACTGGGATA_TRAJ33",
+                        "v": "TRAV12-2",
+                        "specifier": "TGAACTGGGATA",
+                        "j": "TRAJ33",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 5846.99,
+                        "V_percentident": 100.0,
+                        "V_evalue": 6.219999999999999e-123,
+                        "V_bitscore": 431.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.13e-27,
+                        "J_bitscore": 111.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGAGATTTAACTAGCGGGAGCTTCCCCTAC_TRBJ2-7",
+                        "v": "TRBV20-1",
+                        "specifier": "AGAGATTTAACTAGCGGGAGCTTCCCCTAC",
+                        "d": "AGAGATTTAACTAGCGGGAGCTTCCCCTAC",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 134,
+                        "TPM": 1538.35,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.29e-26,
+                        "V_bitscore": 109.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.8499999999999997e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "03_BE_191": {
+                "cell_id": "03_BE_191",
+                "tracer_clonal_group": 1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV12-2_TGAACTGGGATA_TRAJ33",
+                        "v": "TRAV12-2",
+                        "specifier": "TGAACTGGGATA",
+                        "j": "TRAJ33",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 2556.32,
+                        "V_percentident": 100.0,
+                        "V_evalue": 6.149999999999997e-123,
+                        "V_bitscore": 431.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.1099999999999998e-27,
+                        "J_bitscore": 111.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGAGATTTAACTAGCGGGAGCTTCCCCTAC_TRBJ2-7",
+                        "v": "TRBV20-1",
+                        "specifier": "AGAGATTTAACTAGCGGGAGCTTCCCCTAC",
+                        "d": "AGAGATTTAACTAGCGGGAGCTTCCCCTAC",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 358,
+                        "TPM": 251.229,
+                        "V_percentident": 99.65899999999999,
+                        "V_evalue": 5.4899999999999984e-130,
+                        "V_bitscore": 455.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.96e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "03_BE_156": {
+                "cell_id": "03_BE_156",
+                "tracer_clonal_group": 1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGAGATTTAACTAGCGGGAGCTTCCCCTAC_TRBJ2-7",
+                        "v": "TRBV20-1",
+                        "specifier": "AGAGATTTAACTAGCGGGAGCTTCCCCTAC",
+                        "d": "AGAGATTTAACTAGCGGGAGCTTCCCCTAC",
+                        "j": "TRBJ2-7",
+                        "productive": true,
+                        "reconstructed_length": 345,
+                        "TPM": 343.45,
+                        "V_percentident": 99.64299999999999,
+                        "V_evalue": 4.229999999999999e-124,
+                        "V_bitscore": 434.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.51e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            }
+        },
+        "related": {},
+        "nonclonal": {
+            "03_BE_129": {
+                "cell_id": "03_BE_129",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV36_DV7_TCTCT(G)AACAC_TRAJ49",
+                        "v": "TRAV36DV7",
+                        "specifier": "TCTCT(G)AACAC",
+                        "j": "TRAJ49",
+                        "productive": false,
+                        "reconstructed_length": 323,
+                        "TPM": 511.37199999999996,
+                        "V_percentident": 99.25399999999999,
+                        "V_evalue": 2.3499999999999993e-117,
+                        "V_bitscore": 413.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1e-27,
+                        "J_bitscore": 111.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_CTAGATGGGGGGCGATGAAC_TRBJ1-1",
+                        "v": "TRBV20-1",
+                        "specifier": "CTAGATGGGGGGCGATGAAC",
+                        "d": "CTAGATGGGGGGCGATGAAC",
+                        "j": "TRBJ1-1",
+                        "productive": true,
+                        "reconstructed_length": 174,
+                        "TPM": 1271.34,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.4199999999999996e-48,
+                        "V_bitscore": 182.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.32e-23,
+                        "J_bitscore": 95.6
+                    }
+                ]
+            },
+            "03_BE_141": {
+                "cell_id": "03_BE_141",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV21_CCGAGCGGTGG_TRAJ32",
+                        "v": "TRAV21",
+                        "specifier": "CCGAGCGGTGG",
+                        "j": "TRAJ32",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 1172.53,
+                        "V_percentident": 99.281,
+                        "V_evalue": 5.419999999999999e-122,
+                        "V_bitscore": 428.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.240000000000002e-29,
+                        "J_bitscore": 115.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV7-2_AGCAGGACTACCGGGACTAGCG(G)CACAG_TRBJ2-3",
+                        "v": "TRBV7-2",
+                        "specifier": "AGCAGGACTACCGGGACTAGCG(G)CACAG",
+                        "d": "AGCAGGACTACCGGGACTAGCG(G)CACAG",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 349,
+                        "TPM": 4494.67,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.0399999999999998e-126,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.35e-23,
+                        "J_bitscore": 95.6
+                    }
+                ]
+            },
+            "03_BE_104": {
+                "cell_id": "03_BE_104",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV38-2_DV8_GAGCGGTAGAATT_TRAJ32",
+                        "v": "TRAV38-2DV8",
+                        "specifier": "GAGCGGTAGAATT",
+                        "j": "TRAJ32",
+                        "productive": false,
+                        "reconstructed_length": 357,
+                        "TPM": 101.84299999999999,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.8099999999999996e-129,
+                        "V_bitscore": 452.0,
+                        "J_percentident": 98.462,
+                        "J_evalue": 6.809999999999999e-31,
+                        "J_bitscore": 121.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GTGCTGCCCTAGCGGGGGGCACCCCCCGCACA_TRBJ2-3",
+                        "v": "TRBV20-1",
+                        "specifier": "GTGCTGCCCTAGCGGGGGGCACCCCCCGCACA",
+                        "d": "GTGCTGCCCTAGCGGGGGGCACCCCCCGCACA",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 358,
+                        "TPM": 450.644,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1199999999999998e-128,
+                        "V_bitscore": 450.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.1600000000000004e-23,
+                        "J_bitscore": 95.6
+                    }
+                ]
+            },
+            "03_BE_121": {
+                "cell_id": "03_BE_121",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV25_CAGGGCCCGGAATT_TRAJ13",
+                        "v": "TRAV25",
+                        "specifier": "CAGGGCCCGGAATT",
+                        "j": "TRAJ13",
+                        "productive": false,
+                        "reconstructed_length": 332,
+                        "TPM": 1547.48,
+                        "V_percentident": 99.624,
+                        "V_evalue": 1.9799999999999997e-115,
+                        "V_bitscore": 406.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.9499999999999997e-31,
+                        "J_bitscore": 123.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GTGCTCCTCCTCAGGGCCCAAGGCGGGAGAC_TRBJ2-5",
+                        "v": "TRBV20-1",
+                        "specifier": "GTGCTCCTCCTCAGGGCCCAAGGCGGGAGAC",
+                        "d": "GTGCTCCTCCTCAGGGCCCAAGGCGGGAGAC",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 352,
+                        "TPM": 617.273,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.2299999999999997e-128,
+                        "V_bitscore": 450.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.45e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_126": {
+                "cell_id": "03_BE_126",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GCTAA(AG)CGGGGGGCCTGAATGA_TRBJ2-1",
+                        "v": "TRBV20-1",
+                        "specifier": "GCTAA(AG)CGGGGGGCCTGAATGA",
+                        "d": "GCTAA(AG)CGGGGGGCCTGAATGA",
+                        "j": "TRBJ2-1",
+                        "productive": true,
+                        "reconstructed_length": 101,
+                        "TPM": 7.4926,
+                        "V_percentident": 97.87200000000001,
+                        "V_evalue": 2.89e-15,
+                        "V_bitscore": 72.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.45e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_165": {
+                "cell_id": "03_BE_165",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_CTAGTCCTGGTCCGAGGGGATGGCGGGAAAACAC_TRBJ2-2",
+                        "v": "TRBV20-1",
+                        "specifier": "CTAGTCCTGGTCCGAGGGGATGGCGGGAAAACAC",
+                        "d": "CTAGTCCTGGTCCGAGGGGATGGCGGGAAAACAC",
+                        "j": "TRBJ2-2",
+                        "productive": true,
+                        "reconstructed_length": 148,
+                        "TPM": 34.9233,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.4700000000000006e-29,
+                        "V_bitscore": 118.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.26e-24,
+                        "J_bitscore": 97.6
+                    }
+                ]
+            },
+            "03_BE_192": {
+                "cell_id": "03_BE_192",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV2_TGCTGGTCAGGC_TRAJ8",
+                        "v": "TRAV2",
+                        "specifier": "TGCTGGTCAGGC",
+                        "j": "TRAJ8",
+                        "productive": false,
+                        "reconstructed_length": 312,
+                        "TPM": 1073.83,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.789999999999997e-114,
+                        "V_bitscore": 400.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.480000000000001e-27,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV7-6_CCAGCGCCCGAGCGGAAGCCACAG_TRBJ2-3",
+                        "v": "TRBV7-6",
+                        "specifier": "CCAGCGCCCGAGCGGAAGCCACAG",
+                        "d": "CCAGCGCCCGAGCGGAAGCCACAG",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 343,
+                        "TPM": 62.3899,
+                        "V_percentident": 100.0,
+                        "V_evalue": 5.6499999999999985e-126,
+                        "V_bitscore": 441.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.5799999999999998e-22,
+                        "J_bitscore": 93.7
+                    }
+                ]
+            },
+            "03_BE_175": {
+                "cell_id": "03_BE_175",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGAGATGCGGTCGACCAAAAAGAG_TRBJ2-5",
+                        "v": "TRBV20-1",
+                        "specifier": "AGAGATGCGGTCGACCAAAAAGAG",
+                        "d": "AGAGATGCGGTCGACCAAAAAGAG",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 352,
+                        "TPM": 490.811,
+                        "V_percentident": 99.65899999999999,
+                        "V_evalue": 5.349999999999998e-130,
+                        "V_bitscore": 455.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.8600000000000005e-21,
+                        "J_bitscore": 89.7
+                    }
+                ]
+            },
+            "03_BE_154": {
+                "cell_id": "03_BE_154",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV1-2_GCTGTTTACAA_TRAJ21",
+                        "v": "TRAV1-2",
+                        "specifier": "GCTGTTTACAA",
+                        "j": "TRAJ21",
+                        "productive": true,
+                        "reconstructed_length": 325,
+                        "TPM": 1211.25,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1799999999999998e-119,
+                        "V_bitscore": 420.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.4000000000000005e-27,
+                        "J_bitscore": 109.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_186": {
+                "cell_id": "03_BE_186",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV1-2_GCTGTCATGGA_TRAJ12",
+                        "v": "TRAV1-2",
+                        "specifier": "GCTGTCATGGA",
+                        "j": "TRAJ12",
+                        "productive": true,
+                        "reconstructed_length": 328,
+                        "TPM": 3127.49,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1899999999999999e-119,
+                        "V_bitscore": 420.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.17e-29,
+                        "J_bitscore": 115.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRBV7-2_AGCAGAAAGGCGCAGGGCGGCAGAT_TRBJ2-3",
+                        "v": "TRBV7-2",
+                        "specifier": "AGCAGAAAGGCGCAGGGCGGCAGAT",
+                        "d": "AGCAGAAAGGCGCAGGGCGGCAGAT",
+                        "j": "TRBJ2-3",
+                        "productive": false,
+                        "reconstructed_length": 96,
+                        "TPM": 62.5845,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.55e-22,
+                        "V_bitscore": 93.8,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.72e-08,
+                        "J_bitscore": 44.1
+                    }
+                ]
+            },
+            "03_BE_183": {
+                "cell_id": "03_BE_183",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV4-2_CAGCCGACCCGATCAGGTCGAAGGCTA_TRBJ1-2",
+                        "v": "TRBV4-2",
+                        "specifier": "CAGCCGACCCGATCAGGTCGAAGGCTA",
+                        "d": "CAGCCGACCCGATCAGGTCGAAGGCTA",
+                        "j": "TRBJ1-2",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 2723.11,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.029999999999999e-126,
+                        "V_bitscore": 442.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.7199999999999995e-18,
+                        "J_bitscore": 79.8
+                    }
+                ]
+            },
+            "03_BE_107": {
+                "cell_id": "03_BE_107",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV10-3_CCATCGGACCGGGAGTCCAAG_TRBJ2-5",
+                        "v": "TRBV10-3",
+                        "specifier": "CCATCGGACCGGGAGTCCAAG",
+                        "d": "CCATCGGACCGGGAGTCCAAG",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 113,
+                        "TPM": 32.4564,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1099999999999998e-19,
+                        "V_bitscore": 87.5,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.0899999999999999e-22,
+                        "J_bitscore": 93.7
+                    }
+                ]
+            },
+            "03_BE_123": {
+                "cell_id": "03_BE_123",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV12-3_AGTTTGATGGGAGAAAA_TRBJ1-4",
+                        "v": "TRBV12-3",
+                        "specifier": "AGTTTGATGGGAGAAAA",
+                        "d": "AGTTTGATGGGAGAAAA",
+                        "j": "TRBJ1-4",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 2404.02,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.0099999999999987e-128,
+                        "V_bitscore": 449.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.01e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_177": {
+                "cell_id": "03_BE_177",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV4-2_AGCCAGATTGGGGATGAG_TRBJ2-1",
+                        "v": "TRBV4-2",
+                        "specifier": "AGCCAGATTGGGGATGAG",
+                        "d": "AGCCAGATTGGGGATGAG",
+                        "j": "TRBJ2-1",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 693.7189999999999,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.0199999999999997e-126,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.37e-19,
+                        "J_bitscore": 83.8
+                    }
+                ]
+            },
+            "03_BE_157": {
+                "cell_id": "03_BE_157",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV10_GAGCGCTTATGG_TRAJ7",
+                        "v": "TRAV10",
+                        "specifier": "GAGCGCTTATGG",
+                        "j": "TRAJ7",
+                        "productive": true,
+                        "reconstructed_length": 205,
+                        "TPM": 2116.8,
+                        "V_percentident": 100.0,
+                        "V_evalue": 5.05e-63,
+                        "V_bitscore": 232.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.3399999999999996e-27,
+                        "J_bitscore": 109.0
+                    },
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV14_DV4_GAGGGCCGATCGTGGAT_TRAJ33",
+                        "v": "TRAV14DV4",
+                        "specifier": "GAGGGCCGATCGTGGAT",
+                        "j": "TRAJ33",
+                        "productive": false,
+                        "reconstructed_length": 354,
+                        "TPM": 889.3389999999999,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.7299999999999998e-129,
+                        "V_bitscore": 453.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.9100000000000003e-28,
+                        "J_bitscore": 113.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GTGCTAGTCCTGGTCCGAGGGGATGGCGGGAAAACAC_TRBJ2-2",
+                        "v": "TRBV20-1",
+                        "specifier": "GTGCTAGTCCTGGTCCGAGGGGATGGCGGGAAAACAC",
+                        "d": "GTGCTAGTCCTGGTCCGAGGGGATGGCGGGAAAACAC",
+                        "j": "TRBJ2-2",
+                        "productive": true,
+                        "reconstructed_length": 364,
+                        "TPM": 863.8710000000001,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.4799999999999996e-128,
+                        "V_bitscore": 450.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.71e-23,
+                        "J_bitscore": 97.6
+                    }
+                ]
+            },
+            "03_BE_109": {
+                "cell_id": "03_BE_109",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV19_TATAGTCGGGGTAAACAC_TRBJ1-1",
+                        "v": "TRBV19",
+                        "specifier": "TATAGTCGGGGTAAACAC",
+                        "d": "TATAGTCGGGGTAAACAC",
+                        "j": "TRBJ1-1",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 1594.57,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1099999999999996e-127,
+                        "V_bitscore": 447.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.18e-22,
+                        "J_bitscore": 91.7
+                    }
+                ]
+            },
+            "03_BE_179": {
+                "cell_id": "03_BE_179",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV9-2_CTCTGGAACGGAGTGG_TRAJ53",
+                        "v": "TRAV9-2",
+                        "specifier": "CTCTGGAACGGAGTGG",
+                        "j": "TRAJ53",
+                        "productive": true,
+                        "reconstructed_length": 283,
+                        "TPM": 3242.32,
+                        "V_percentident": 100.0,
+                        "V_evalue": 8.05e-95,
+                        "V_bitscore": 338.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.09e-30,
+                        "J_bitscore": 121.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_150": {
+                "cell_id": "03_BE_150",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGAGATGACCTGAGAACCGGGACATTGAAC_TRBJ1-1",
+                        "v": "TRBV20-1",
+                        "specifier": "AGAGATGACCTGAGAACCGGGACATTGAAC",
+                        "d": "AGAGATGACCTGAGAACCGGGACATTGAAC",
+                        "j": "TRBJ1-1",
+                        "productive": true,
+                        "reconstructed_length": 361,
+                        "TPM": 2683.05,
+                        "V_percentident": 99.65899999999999,
+                        "V_evalue": 5.409999999999999e-130,
+                        "V_bitscore": 455.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.32e-23,
+                        "J_bitscore": 95.6
+                    }
+                ]
+            },
+            "03_BE_118": {
+                "cell_id": "03_BE_118",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GTGCTAGGGGGACCTCTGAA_TRBJ1-1",
+                        "v": "TRBV20-1",
+                        "specifier": "GTGCTAGGGGGACCTCTGAA",
+                        "d": "GTGCTAGGGGGACCTCTGAA",
+                        "j": "TRBJ1-1",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 1744.38,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.3499999999999998e-128,
+                        "V_bitscore": 450.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.35e-19,
+                        "J_bitscore": 83.8
+                    }
+                ]
+            },
+            "03_BE_189": {
+                "cell_id": "03_BE_189",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV17_ACGGATAACGACAG_TRAJ24",
+                        "v": "TRAV17",
+                        "specifier": "ACGGATAACGACAG",
+                        "j": "TRAJ24",
+                        "productive": true,
+                        "reconstructed_length": 186,
+                        "TPM": 594.852,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.1e-53,
+                        "V_bitscore": 199.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.03e-27,
+                        "J_bitscore": 109.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GTGCTAGGTCTGAGCGGCAAATAAATGA_TRBJ2-1",
+                        "v": "TRBV20-1",
+                        "specifier": "GTGCTAGGTCTGAGCGGCAAATAAATGA",
+                        "d": "GTGCTAGGTCTGAGCGGCAAATAAATGA",
+                        "j": "TRBJ2-1",
+                        "productive": true,
+                        "reconstructed_length": 349,
+                        "TPM": 532.805,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.3799999999999996e-128,
+                        "V_bitscore": 450.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.07e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_153": {
+                "cell_id": "03_BE_153",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV9-2_GAGTGGACTCAATG_TRAJ31",
+                        "v": "TRAV9-2",
+                        "specifier": "GAGTGGACTCAATG",
+                        "j": "TRAJ31",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 2150.91,
+                        "V_percentident": 99.286,
+                        "V_evalue": 6.219999999999999e-123,
+                        "V_bitscore": 431.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.29e-24,
+                        "J_bitscore": 99.6
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_193": {
+                "cell_id": "03_BE_193",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_CAGTGGGGGAGGGCCGGGGGAGAC_TRBJ2-5",
+                        "v": "TRBV20-1",
+                        "specifier": "CAGTGGGGGAGGGCCGGGGGAGAC",
+                        "d": "CAGTGGGGGAGGGCCGGGGGAGAC",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 343,
+                        "TPM": 382.199,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.0699999999999997e-127,
+                        "V_bitscore": 447.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.45e-20,
+                        "J_bitscore": 85.7
+                    },
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRBV21-1_GCAAACCACATGGGGGCCTGCAAGGCCCTTTGCGAGC_TRBJ2-7",
+                        "v": "TRBV21-1",
+                        "specifier": "GCAAACCACATGGGGGCCTGCAAGGCCCTTTGCGAGC",
+                        "d": "GCAAACCACATGGGGGCCTGCAAGGCCCTTTGCGAGC",
+                        "j": "TRBJ2-7",
+                        "productive": false,
+                        "reconstructed_length": 356,
+                        "TPM": 132.81799999999998,
+                        "V_percentident": 99.306,
+                        "V_evalue": 1.0399999999999998e-126,
+                        "V_bitscore": 444.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.56e-19,
+                        "J_bitscore": 81.8
+                    }
+                ]
+            },
+            "03_BE_105": {
+                "cell_id": "03_BE_105",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV27_GCAGTACTCACCGGGACTCAAAGGAGAC_TRBJ2-5",
+                        "v": "TRBV27",
+                        "specifier": "GCAGTACTCACCGGGACTCAAAGGAGAC",
+                        "d": "GCAGTACTCACCGGGACTCAAAGGAGAC",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 343,
+                        "TPM": 410.05800000000005,
+                        "V_percentident": 100.0,
+                        "V_evalue": 8.959999999999997e-126,
+                        "V_bitscore": 441.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.06e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_138": {
+                "cell_id": "03_BE_138",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV39_CGTGGGAGGATCAGG_TRAJ45",
+                        "v": "TRAV39",
+                        "specifier": "CGTGGGAGGATCAGG",
+                        "j": "TRAJ45",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 1188.06,
+                        "V_percentident": 100.0,
+                        "V_evalue": 5.219999999999999e-122,
+                        "V_bitscore": 428.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.1299999999999999e-30,
+                        "J_bitscore": 121.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_133": {
+                "cell_id": "03_BE_133",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGTGCCAACCTTCTTACAGAGA_TRBJ2-5",
+                        "v": "TRBV20-1",
+                        "specifier": "AGTGCCAACCTTCTTACAGAGA",
+                        "d": "AGTGCCAACCTTCTTACAGAGA",
+                        "j": "TRBJ2-5",
+                        "productive": true,
+                        "reconstructed_length": 90,
+                        "TPM": 26.275,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.3400000000000001e-09,
+                        "V_bitscore": 54.8,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.1000000000000001e-20,
+                        "J_bitscore": 87.7
+                    }
+                ]
+            },
+            "03_BE_188": {
+                "cell_id": "03_BE_188",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV7-2_GCAGCCTCTTTTGGGCGGCAGCCA_TRBJ2-4",
+                        "v": "TRBV7-2",
+                        "specifier": "GCAGCCTCTTTTGGGCGGCAGCCA",
+                        "d": "GCAGCCTCTTTTGGGCGGCAGCCA",
+                        "j": "TRBJ2-4",
+                        "productive": true,
+                        "reconstructed_length": 349,
+                        "TPM": 1731.59,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.489999999999999e-127,
+                        "V_bitscore": 445.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.009999999999999e-24,
+                        "J_bitscore": 99.6
+                    }
+                ]
+            },
+            "03_BE_142": {
+                "cell_id": "03_BE_142",
+                "tracer_clonal_group": -1,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_GCTAA(AG)CGGGGGACCTGAATGA_TRBJ2-1",
+                        "v": "TRBV20-1",
+                        "specifier": "GCTAA(AG)CGGGGGACCTGAATGA",
+                        "d": "GCTAA(AG)CGGGGGACCTGAATGA",
+                        "j": "TRBJ2-1",
+                        "productive": true,
+                        "reconstructed_length": 250,
+                        "TPM": 0.0,
+                        "V_percentident": 99.49,
+                        "V_evalue": 1.3499999999999997e-84,
+                        "V_bitscore": 304.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.8700000000000004e-20,
+                        "J_bitscore": 85.7
+                    },
+                    {
+                        "recombinant_id": "TRBV20-1_GTGCTAAAGCGGGGGACCTGAATGA_TRBJ2-1",
+                        "v": "TRBV20-1",
+                        "specifier": "GTGCTAAAGCGGGGGACCTGAATGA",
+                        "d": "GTGCTAAAGCGGGGGACCTGAATGA",
+                        "j": "TRBJ2-1",
+                        "productive": true,
+                        "reconstructed_length": 346,
+                        "TPM": 1135.2,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.3699999999999998e-128,
+                        "V_bitscore": 450.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.03e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_101": {
+                "cell_id": "03_BE_101",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV23_DV6_CAAGCAATGGTGGAA_TRAJ47",
+                        "v": "TRAV23DV6",
+                        "specifier": "CAAGCAATGGTGGAA",
+                        "j": "TRAJ47",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 849.957,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.439999999999999e-124,
+                        "V_bitscore": 436.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.29e-24,
+                        "J_bitscore": 99.6
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGTGCCAAACAGGGAAA_TRBJ1-3",
+                        "v": "TRBV20-1",
+                        "specifier": "AGTGCCAAACAGGGAAA",
+                        "d": "AGTGCCAAACAGGGAAA",
+                        "j": "TRBJ1-3",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 1007.74,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.949999999999999e-128,
+                        "V_bitscore": 449.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.6e-22,
+                        "J_bitscore": 91.7
+                    }
+                ]
+            },
+            "03_BE_122": {
+                "cell_id": "03_BE_122",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV8-1_GTGCCTCCCTAGATG_TRAJ16",
+                        "v": "TRAV8-1",
+                        "specifier": "GTGCCTCCCTAGATG",
+                        "j": "TRAJ16",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 434.411,
+                        "V_percentident": 100.0,
+                        "V_evalue": 3.5799999999999984e-123,
+                        "V_bitscore": 431.0,
+                        "J_percentident": 98.113,
+                        "J_evalue": 1e-23,
+                        "J_bitscore": 97.6
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_CTAGTCCGGGTGGCAAT_TRBJ1-5",
+                        "v": "TRBV20-1",
+                        "specifier": "CTAGTCCGGGTGGCAAT",
+                        "d": "CTAGTCCGGGTGGCAAT",
+                        "j": "TRBJ1-5",
+                        "productive": true,
+                        "reconstructed_length": 176,
+                        "TPM": 1334.29,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.1099999999999999e-50,
+                        "V_bitscore": 190.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.55e-23,
+                        "J_bitscore": 95.6
+                    }
+                ]
+            }
+        },
+        "bystanders": {
+            "03_BE_164": {
+                "cell_id": "03_BE_164",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 221,
+                        "TPM": 4.2187,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.4899999999999998e-69,
+                        "V_bitscore": 252.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.1099999999999995e-27,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_114": {
+                "cell_id": "03_BE_114",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 1289.5,
+                        "V_percentident": 100.0,
+                        "V_evalue": 2.089999999999999e-123,
+                        "V_bitscore": 433.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.74e-26,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_134": {
+                "cell_id": "03_BE_134",
+                "tracer_clonal_group": 3,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_TAGAGCCGGTAGCGGGGGGAGCAC_TRBJ2-3",
+                        "v": "TRBV20-1",
+                        "specifier": "TAGAGCCGGTAGCGGGGGGAGCAC",
+                        "d": "TAGAGCCGGTAGCGGGGGGAGCAC",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 214,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.14e-65,
+                        "V_bitscore": 237.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.83e-24,
+                        "J_bitscore": 97.6
+                    }
+                ]
+            },
+            "03_BE_98": {
+                "cell_id": "03_BE_98",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 92.4202,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.9899999999999998e-123,
+                        "V_bitscore": 433.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.66e-26,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_103": {
+                "cell_id": "03_BE_103",
+                "tracer_clonal_group": 5,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV1-1_CTGTGGGCCCCGCAGG_TRAJ17",
+                        "v": "TRAV1-1",
+                        "specifier": "CTGTGGGCCCCGCAGG",
+                        "j": "TRAJ17",
+                        "productive": true,
+                        "reconstructed_length": 328,
+                        "TPM": 2037.76,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.0299999999999996e-120,
+                        "V_bitscore": 422.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.73e-25,
+                        "J_bitscore": 103.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV30_CCGGACCACTGGACTAGCGCCAACAGA_TRBJ2-3",
+                        "v": "TRBV30",
+                        "specifier": "CCGGACCACTGGACTAGCGCCAACAGA",
+                        "d": "CCGGACCACTGGACTAGCGCCAACAGA",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 343,
+                        "TPM": 1103.45,
+                        "V_percentident": 99.64299999999999,
+                        "V_evalue": 6.769999999999999e-124,
+                        "V_bitscore": 434.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 9.87e-22,
+                        "J_bitscore": 91.7
+                    }
+                ]
+            },
+            "03_BE_130": {
+                "cell_id": "03_BE_130",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 1617.25,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.4699999999999995e-123,
+                        "V_bitscore": 433.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.2299999999999998e-26,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_158": {
+                "cell_id": "03_BE_158",
+                "tracer_clonal_group": 3,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_TAGAGCCGGTAGCGGGGGGAGCAC_TRBJ2-3",
+                        "v": "TRBV20-1",
+                        "specifier": "TAGAGCCGGTAGCGGGGGGAGCAC",
+                        "d": "TAGAGCCGGTAGCGGGGGGAGCAC",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 355,
+                        "TPM": 364.903,
+                        "V_percentident": 99.65799999999999,
+                        "V_evalue": 1.5999999999999995e-129,
+                        "V_bitscore": 453.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.6100000000000002e-23,
+                        "J_bitscore": 97.6
+                    }
+                ]
+            },
+            "03_BE_170": {
+                "cell_id": "03_BE_170",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 335,
+                        "TPM": 19.5013,
+                        "V_percentident": 99.639,
+                        "V_evalue": 6.799999999999999e-123,
+                        "V_bitscore": 430.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.07e-25,
+                        "J_bitscore": 103.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV5-1_CTTGGAAGGCGGGAACA_TRBJ2-2",
+                        "v": "TRBV5-1",
+                        "specifier": "CTTGGAAGGCGGGAACA",
+                        "d": "CTTGGAAGGCGGGAACA",
+                        "j": "TRBJ2-2",
+                        "productive": true,
+                        "reconstructed_length": 343,
+                        "TPM": 597.212,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1799999999999997e-127,
+                        "V_bitscore": 447.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.0000000000000004e-24,
+                        "J_bitscore": 99.6
+                    }
+                ]
+            },
+            "03_BE_144": {
+                "cell_id": "03_BE_144",
+                "tracer_clonal_group": 4,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV27_AGGAGCGAGACAGC_TRAJ3",
+                        "v": "TRAV27",
+                        "specifier": "AGGAGCGAGACAGC",
+                        "j": "TRAJ3",
+                        "productive": false,
+                        "reconstructed_length": 335,
+                        "TPM": 414.27099999999996,
+                        "V_percentident": 99.635,
+                        "V_evalue": 4.679999999999999e-121,
+                        "V_bitscore": 425.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.8499999999999997e-28,
+                        "J_bitscore": 113.0
+                    },
+                    {
+                        "recombinant_id": "TRAV2_GAGGATCTCCTTTCT_TRAJ4",
+                        "v": "TRAV2",
+                        "specifier": "GAGGATCTCCTTTCT",
+                        "j": "TRAJ4",
+                        "productive": true,
+                        "reconstructed_length": 328,
+                        "TPM": 4618.04,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.729999999999998e-117,
+                        "V_bitscore": 411.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.59e-30,
+                        "J_bitscore": 119.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGAGATCTCCGATCACC_TRBJ1-6",
+                        "v": "TRBV20-1",
+                        "specifier": "AGAGATCTCCGATCACC",
+                        "d": "AGAGATCTCCGATCACC",
+                        "j": "TRBJ1-6",
+                        "productive": true,
+                        "reconstructed_length": 343,
+                        "TPM": 3653.4,
+                        "V_percentident": 99.65899999999999,
+                        "V_evalue": 5.409999999999999e-130,
+                        "V_bitscore": 455.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.09e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_146": {
+                "cell_id": "03_BE_146",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 292,
+                        "TPM": 20.8716,
+                        "V_percentident": 100.0,
+                        "V_evalue": 8.609999999999997e-103,
+                        "V_bitscore": 363.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.879999999999999e-27,
+                        "J_bitscore": 107.0
+                    },
+                    {
+                        "recombinant_id": "TRAV30_CAGAGCCTGGT_TRAJ52",
+                        "v": "TRAV30",
+                        "specifier": "CAGAGCCTGGT",
+                        "j": "TRAJ52",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 2240.09,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.5899999999999996e-121,
+                        "V_bitscore": 427.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.509999999999999e-32,
+                        "J_bitscore": 125.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV7-8_GCTTACCTGGTTATTATGG_TRBJ1-2",
+                        "v": "TRBV7-8",
+                        "specifier": "GCTTACCTGGTTATTATGG",
+                        "d": "GCTTACCTGGTTATTATGG",
+                        "j": "TRBJ1-2",
+                        "productive": true,
+                        "reconstructed_length": 110,
+                        "TPM": 782.322,
+                        "V_percentident": 100.0,
+                        "V_evalue": 7.73e-21,
+                        "V_bitscore": 92.2,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.5399999999999997e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            },
+            "03_BE_174": {
+                "cell_id": "03_BE_174",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 145,
+                        "TPM": 13.2737,
+                        "V_percentident": 98.824,
+                        "V_evalue": 4.16e-33,
+                        "V_bitscore": 131.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.77e-27,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_143": {
+                "cell_id": "03_BE_143",
+                "tracer_clonal_group": 2,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV38-1_GAAGCTGCGACAAT_TRAJ43",
+                        "v": "TRAV38-1",
+                        "specifier": "GAAGCTGCGACAAT",
+                        "j": "TRAJ43",
+                        "productive": false,
+                        "reconstructed_length": 341,
+                        "TPM": 951.673,
+                        "V_percentident": 99.30799999999999,
+                        "V_evalue": 3.649999999999999e-127,
+                        "V_bitscore": 445.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.54e-23,
+                        "J_bitscore": 95.6
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_CTAGAACCAGTTACAA_TRBJ2-1",
+                        "v": "TRBV20-1",
+                        "specifier": "CTAGAACCAGTTACAA",
+                        "d": "CTAGAACCAGTTACAA",
+                        "j": "TRBJ2-1",
+                        "productive": true,
+                        "reconstructed_length": 343,
+                        "TPM": 631.349,
+                        "V_percentident": 99.656,
+                        "V_evalue": 3.4199999999999995e-129,
+                        "V_bitscore": 452.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 7.24e-22,
+                        "J_bitscore": 91.7
+                    }
+                ]
+            },
+            "03_BE_155": {
+                "cell_id": "03_BE_155",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 9.42908,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1899999999999999e-123,
+                        "V_bitscore": 433.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.0200000000000001e-26,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_162": {
+                "cell_id": "03_BE_162",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 337,
+                        "TPM": 783.472,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.3899999999999998e-123,
+                        "V_bitscore": 433.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.1700000000000001e-26,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_139": {
+                "cell_id": "03_BE_139",
+                "tracer_clonal_group": 2,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_CTAGAACCAGTTACAA_TRBJ2-1",
+                        "v": "TRBV20-1",
+                        "specifier": "CTAGAACCAGTTACAA",
+                        "d": "CTAGAACCAGTTACAA",
+                        "j": "TRBJ2-1",
+                        "productive": true,
+                        "reconstructed_length": 96,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.14e-14,
+                        "V_bitscore": 70.4,
+                        "J_percentident": 100.0,
+                        "J_evalue": 3.1e-22,
+                        "J_bitscore": 91.7
+                    }
+                ]
+            },
+            "03_BE_167": {
+                "cell_id": "03_BE_167",
+                "tracer_clonal_group": 5,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV30_CCGGACCACTGGACTAGCGCCAACAGA_TRBJ2-3",
+                        "v": "TRBV30",
+                        "specifier": "CCGGACCACTGGACTAGCGCCAACAGA",
+                        "d": "CCGGACCACTGGACTAGCGCCAACAGA",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 139,
+                        "TPM": 0.0,
+                        "V_percentident": 98.684,
+                        "V_evalue": 2.08e-28,
+                        "V_bitscore": 117.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.31e-22,
+                        "J_bitscore": 91.7
+                    }
+                ]
+            },
+            "03_BE_185": {
+                "cell_id": "03_BE_185",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 228,
+                        "TPM": 5.68555,
+                        "V_percentident": 100.0,
+                        "V_evalue": 6.379999999999999e-73,
+                        "V_bitscore": 263.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.270000000000001e-27,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV4-2_CCAAGGAGTAAGGGACCATACG_TRBJ2-3",
+                        "v": "TRBV4-2",
+                        "specifier": "CCAAGGAGTAAGGGACCATACG",
+                        "d": "CCAAGGAGTAAGGGACCATACG",
+                        "j": "TRBJ2-3",
+                        "productive": true,
+                        "reconstructed_length": 340,
+                        "TPM": 417.843,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.1899999999999998e-127,
+                        "V_bitscore": 447.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 2.3999999999999997e-19,
+                        "J_bitscore": 83.8
+                    }
+                ]
+            },
+            "03_BE_145": {
+                "cell_id": "03_BE_145",
+                "tracer_clonal_group": -1,
+                "alphas": [
+                    {
+                        "recombinant_id": "NONPRODUCTIVE_B_TRAV8-4_GAGTGGGGGGTGCT_TRAJ3",
+                        "v": "TRAV8-4",
+                        "specifier": "GAGTGGGGGGTGCT",
+                        "j": "TRAJ3",
+                        "productive": false,
+                        "reconstructed_length": 338,
+                        "TPM": 1390.26,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.7699999999999996e-126,
+                        "V_bitscore": 442.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 6.13e-25,
+                        "J_bitscore": 101.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_106": {
+                "cell_id": "03_BE_106",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 317,
+                        "TPM": 458.204,
+                        "V_percentident": 100.0,
+                        "V_evalue": 4.349999999999998e-114,
+                        "V_bitscore": 402.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.51e-26,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV12-4_CAGTTACCGACTTGGGACTTTGGGGGGAAACAC_TRBJ2-2",
+                        "v": "TRBV12-4",
+                        "specifier": "CAGTTACCGACTTGGGACTTTGGGGGGAAACAC",
+                        "d": "CAGTTACCGACTTGGGACTTTGGGGGGAAACAC",
+                        "j": "TRBJ2-2",
+                        "productive": true,
+                        "reconstructed_length": 358,
+                        "TPM": 325.508,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.2099999999999996e-127,
+                        "V_bitscore": 447.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.62e-23,
+                        "J_bitscore": 97.6
+                    }
+                ]
+            },
+            "03_BE_102": {
+                "cell_id": "03_BE_102",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 140,
+                        "TPM": 65.6619,
+                        "V_percentident": 100.0,
+                        "V_evalue": 1.13e-31,
+                        "V_bitscore": 126.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 4.02e-27,
+                        "J_bitscore": 107.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_172": {
+                "cell_id": "03_BE_172",
+                "tracer_clonal_group": 0,
+                "alphas": [
+                    {
+                        "recombinant_id": "TRAV13-1_AGCAACCTTTCCTAAC_TRAJ20",
+                        "v": "TRAV13-1",
+                        "specifier": "AGCAACCTTTCCTAAC",
+                        "j": "TRAJ20",
+                        "productive": true,
+                        "reconstructed_length": 334,
+                        "TPM": 50.1348,
+                        "V_percentident": 100.0,
+                        "V_evalue": 9.99e-124,
+                        "V_bitscore": 433.0,
+                        "J_percentident": 100.0,
+                        "J_evalue": 5.33e-25,
+                        "J_bitscore": 101.0
+                    }
+                ],
+                "betas": []
+            },
+            "03_BE_120": {
+                "cell_id": "03_BE_120",
+                "tracer_clonal_group": 4,
+                "alphas": [],
+                "betas": [
+                    {
+                        "recombinant_id": "TRBV20-1_AGAGATCTCCGATCACC_TRBJ1-6",
+                        "v": "TRBV20-1",
+                        "specifier": "AGAGATCTCCGATCACC",
+                        "d": "AGAGATCTCCGATCACC",
+                        "j": "TRBJ1-6",
+                        "productive": true,
+                        "reconstructed_length": 71,
+                        "TPM": 0.0,
+                        "V_percentident": 100.0,
+                        "V_evalue": 0.000537,
+                        "V_bitscore": 34.6,
+                        "J_percentident": 100.0,
+                        "J_evalue": 1.4899999999999998e-20,
+                        "J_bitscore": 85.7
+                    }
+                ]
+            }
+        },
+        "nonreconstructed": {
+            "03_BE_161": [],
+            "03_BE_169": [],
+            "03_BE_137": [],
+            "03_BE_181": [],
+            "03_BE_171": [],
+            "03_BE_152": [],
+            "03_BE_178": [],
+            "03_BE_108": [],
+            "03_BE_117": [],
+            "03_BE_147": [],
+            "03_BE_160": [],
+            "03_BE_100": [],
+            "03_BE_125": [],
+            "03_BE_111": [],
+            "03_BE_110": [],
+            "03_BE_176": [],
+            "03_BE_187": [],
+            "03_BE_127": [],
+            "03_BE_115": [],
+            "03_BE_132": [],
+            "03_BE_112": [],
+            "03_BE_148": [],
+            "03_BE_163": [],
+            "03_BE_182": [],
+            "03_BE_140": [],
+            "03_BE_131": [],
+            "03_BE_135": [],
+            "03_BE_166": [],
+            "03_BE_159": [],
+            "03_BE_180": [],
+            "03_BE_99": [],
+            "03_BE_190": [],
+            "03_BE_128": [],
+            "03_BE_184": [],
+            "03_BE_113": [],
+            "03_BE_116": [],
+            "03_BE_149": [],
+            "03_BE_136": [],
+            "03_BE_119": [],
+            "03_BE_151": [],
+            "03_BE_173": [],
+            "03_BE_168": []
+        }
+    }
+}
