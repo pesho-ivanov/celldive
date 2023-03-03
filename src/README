@@ -1,0 +1,98 @@
+# Prereq:
+ 1. Install miniconda following the official instruction: https://conda.io/miniconda.html (do not use pip install conda)
+ 
+# Installation
+ > conda env create --name <YOUR_ENVIRONMENT> --file src/environment.yml
+ Instead, for update: conda env update -f src/environment.yml
+ > conda activate celldive
+ Comment: conda channels that are used are bioconda, conda-forge and defaults (in this order)
+
+ 
+# Pipeline
+  raw -> trimmed -> quantification --\
+         |                           v
+         \-> TCRs -> filtered -> clonality --> DE -> genes -> venn
+                           ^
+  sample_info, cell_info --/
+
+
+# Data
+### raw (dir)
+  * <=96 pairs of fastq files per sample
+  * some patients have >1 samples
+  * QC: fastqc + multiqc
+ 
+### trimmed (dir)
+  * same format as raw
+  * a little bit smaller files and #reads
+  * QC: fastqc + multiqc
+
+### quantification (sample dir with cell subdirs)
+  * default Kallisto output
+ 
+### TCRs (JSON)
+  * JSON with J-(V)-D regions per alpha and beta per cell
+  * additional reconstruction quality information
+ 
+### clonality (JSON)
+  * cells separated into clonal, non-clonal, etc.
+  * the cell names have the batches as prefix
+ 
+### sample_info (csv)
+  * manual information for every sample: clonal alpha and beta chains, alias names, meta data (FACS sorting, etc.)
+ 
+### cell_info (csv)
+  * autoamtically-produced per-cell data (e.g. cell count per well by microscopic analysis)
+ 
+### gene_table (csv)
+  * rows: genes
+  * columns: p-value, adjusted p-value (fdr), fold-change (relative and absolute)
+
+### venn
+  * UpSetR graph
+  * aggregated table with samples as columns with (sorted by fold-change) genes as rows
+
+
+--- Stages ---
+### Trimming (bpipe) raw -> trimmed
+  * trim-galore: wrapper for cutadapt (0.4.4_dev):
+    - cuts Nextera adapters
+    - quality cutting on phred<30
+    - pair reads
+    - remove read pairs if one is shorten than 30bp
+ 
+### Quantification (bpipe): trimmed -> quantification
+  * Kallisto (0.44.0)
+    - map on GRCh38.rel79 human genome with added 3 Spike-ins
+    - pair reads
+    - default options
+ 
+### TCR reconstruction (bpipe): trimmed -> TCRs
+  * TraCeR (6.0.0)
+    - default options
+  * with JSON adapter (by Pirmin)
+ 
+### Clonality reconstruction (celldive.py): TCRs -> clonality
+  * clonal, non-clonal, ambiguous, non-reconstructed
+  * TODO: non-productive chains are filtered out
+  * TODO: doublet wells are filtered out
+  * manually chosen clonal `alpha' and `beta' TCRs per patient
+  * defining clonal by `alpha or beta'
+ 
+### DE: Differential Expression (R script): clonality, quantification -> gene table
+  * base object: SingleCellExperiment
+  * dependencies: Scater, Seurat, SCDE, ROTS, edgeR
+  * read kallisto transcript quantification for clonal and non-clonal
+  * aggregate transcripts counts to genes counts (with integer cutoff)
+  * cell filtering: TODO
+  * gene filtering: with low number of reads; and in small number of cells
+  * no Spike-ins used (only 3 when others use 24)
+  * for ROTS (*omics method for different features, bootstrapping):
+    - counts needed
+    - TODO: TMM normalization
+  * for SCDE:
+    - counts needed
+    - TODO: work around the crash during error-modeling: https://github.com/hms-dbmi/scde/issues/48
+
+### Gene tables aggregation (R script): gene tables -> 
+  * nothing
