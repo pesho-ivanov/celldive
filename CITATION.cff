@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: CellDive
+title: CellDive: CellDive Gene-level analysis of lymphocyte single-cell RNA data based on a clonality specification language
 message: 'If you use this software, please cite it as below.'
 type: software
 authors:
