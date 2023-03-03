@@ -23,7 +23,7 @@ Pesho Ivanov:
 Participation in meetings:
 * Yun-Tsan, Desislava Ignatova, Pirmin Schmid, Martin Vechev, Emmanuella Guenova
 
-Data used to produce `example/`:
+Data used to produce [example/](example/):
 * Yun-Tsan, Desislava Ignatova, Emmanuella Guenova
 
 Note: The code has been written in 2017--2018 so it may be outdated.
