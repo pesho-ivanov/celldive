@@ -15,15 +15,12 @@ CellDive has been applied ([example/](example/)) to a dozen of human cutaneous l
 
 ## Contributions
 
-Pesho Ivanov:
+Pesho Ivanov (advisor Martin Vechev), Software Reliability Lab, ETH Zurich:
 * code and execution
 * alpha and beta chain language rules for specifying clones
 * bipartite graph with cells as edges
 
-Participation in meetings:
-* Yun-Tsan, Desislava Ignatova, Pirmin Schmid, Martin Vechev, Emmanuella Guenova
-
-Data used to produce [example/](example/):
+Data used to produce [example/](example/), Department of Dermatology, University Hospital Zurich:
 * Yun-Tsan, Desislava Ignatova, Emmanuella Guenova
 
 Note: The code has been written in 2017--2018 so it may be outdated.
