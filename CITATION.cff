@@ -7,7 +7,7 @@ message: 'If you use this software, please cite it as below.'
 type: software
 authors:
   - family-names: Ivanov
-    given-names: Petar
+    given-names: Pesho
     orcid: 'https://orcid.org/0000-0002-8119-3849'
     email: ivanov@pesho.info
   - family-names: Vechev
