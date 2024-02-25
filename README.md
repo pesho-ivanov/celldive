@@ -17,8 +17,10 @@ CellDive has been applied ([example/](example/)) to a dozen of human cutaneous l
 
 Pesho Ivanov (advisor Martin Vechev), Software Reliability Lab, ETH Zurich:
 * code and execution
-* alpha and beta chain language rules for specifying clones
-* bipartite graph with cells as edges
+* alpha and beta chain language rules for specifying clones. each cell is colored depending on the clone 
+* bipartite graph with left nodes for alpha-chains, right nodes for beta-chains, and cells as edges (possibly connected to No-alpha and No-beta nodes)
+
+![Bipartite graph](imgs/WaG-BLC.png)
 
 Data used to produce [example/](example/), Department of Dermatology, University Hospital Zurich:
 * Yun-Tsan, Desislava Ignatova, Emmanuella Guenova
